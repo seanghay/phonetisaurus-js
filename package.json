@@ -1,0 +1,34 @@
+{
+  "name": "phonetisaurus",
+  "version": "0.0.0",
+  "description": "Grapheme to Phoneme on the Web powered by WebAssembly",
+  "type": "module",
+  "types": "phonetisaurus.d.ts",
+  "browser": "browser.js",
+  "exports": {
+    "./package.json": "./package.json",
+    "./phonetisaurus.wasm": "./phonetisaurus.wasm",
+    "./loader.js": "./loader.js",
+    ".": {
+      "types": "./phonetisaurus.d.ts",
+      "default": "./node.js",
+      "browser": "./browser.js",
+      "node": "./node.js"
+    }
+  },
+  "author": {
+    "name": "Seanghay Yath",
+    "email": "seanghay.dev@gmail.com",
+    "url": "https://github.com/seanghay"
+  },
+  "license": "MIT",
+  "repository": "seanghay/phonetisaurus-js",
+  "files": [
+    "phonetisaurus.wasm",
+    "phonetisaurus.mjs",
+    "phonetisaurus.d.ts",
+    "node.js",
+    "loader.js",
+    "browser.js"
+  ]
+}
