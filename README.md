@@ -13,7 +13,7 @@ const buffer = await res.arrayBuffer();
 phonetisaurus.FS.writeFile("/model.fst", buffer)
 
 // create phonemizer instance
-const phonemizer = new phonetisaurus.Phonemizer("model.fst", "")
+const phonemizer = new phonetisaurus.Phonemizer("/model.fst", "")
 const result = phonemizer.phoneticize("hello", 10, 500, 10, false, false, 0.0)
 
 // => [[ 'h', 'ɛɛ', 'l', 'oo' ]]

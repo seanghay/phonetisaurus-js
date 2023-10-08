@@ -1,6 +1,6 @@
 {
   "name": "phonetisaurus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Grapheme to Phoneme on the Web powered by WebAssembly",
   "type": "module",
   "types": "phonetisaurus.d.ts",
