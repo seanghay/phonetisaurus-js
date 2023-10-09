@@ -39,7 +39,9 @@ There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR P
 To compile the project, run
 
 ```shell
-./build/build.sh
+cd build/
+
+./build.sh
 ```
 
 This will output two files such as 
