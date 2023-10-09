@@ -1,4 +1,4 @@
-### Phonetisaurus.js
+## Phonetisaurus.js
 
 Grapheme to Phoneme on the Web powered by WebAssembly.
 
@@ -19,8 +19,11 @@ const result = phonemizer.phoneticize("hello", 10, 500, 10, false, false, 0.0)
 // => [[ 'h', 'ɛɛ', 'l', 'oo' ]]
 ```
 
+### Examples
 
-## Reference
+- [phonetisaurus-js-khmer](https://github.com/seanghay/phonetisaurus-js-khmer)
+
+### Reference
 
 - [Phonetisaurus](https://github.com/AdolfVonKleist/Phonetisaurus)
 - [OpenFst](https://www.openfst.org/)
