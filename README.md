@@ -23,7 +23,30 @@ const result = phonemizer.phoneticize("hello", 10, 500, 10, false, false, 0.0)
 
 - [phonetisaurus-js-khmer](https://github.com/seanghay/phonetisaurus-js-khmer)
 
-### Reference
+---
+
+### Building
+
+We are using Emscripten to compile to WebAssembly. Here is the version info:
+
+```
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.33 (c1927f22708aa9a26a5956bab61de083e8d3e463)
+Copyright (C) 2014 the Emscripten authors (see AUTHORS.txt)
+This is free and open source software under the MIT license.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+To compile the project, run
+
+```shell
+./build/build.sh
+```
+
+This will output two files such as 
+- `phonetisaurus.mjs` 
+- `phonetisaurus.wasm`
+
+## Reference
 
 - [Phonetisaurus](https://github.com/AdolfVonKleist/Phonetisaurus)
 - [OpenFst](https://www.openfst.org/)
